@@ -8,13 +8,12 @@ Use Network Science and Clustering Techniques to perform Friends Segmentation on
 
 The Solution Process:
 
-- Data Gathering: use python and selenium to perform Automatic Web-scraping, the result is two dataset. The First dataset
-
-    Data Cleaning and Preprocessing: includes removing unnecessary columns, feature Engineering, Data Manipulation and using Visualization to perform EDA.
-    Dimensionality Reduction: using PCA "Principal Component Analysis".
-    Clustering: using K-Means Clustering, Hierarchal Clustering and using calinski_harabasz_score, silhouette_score to determine the optimal number of clusters.
-    Data Visualization: used to evaluate the characteristics of the customers in the different clusters found the group.
-
+- Data Gathering: use python and selenium to perform Automatic Web-scraping, the result is two dataset. [The First dataset](https://github.com/FaresGh1997/Social_Netowrk_DA/blob/main/Friends_Info.txt) represents the name, last_name and node_id for each node in my social-network. [The second dataset](https://github.com/FaresGh1997/Social_Netowrk_DA/blob/main/Edge_List.txt) represents the connnections among nodes in the network.
+- Explarotory Data Analysis (EDA): using network science tools and Data Visulization techniques to extract Basic attributes and the network summary,
+- Stastical Study: to find out if the network is randomly structured and the closest random graph to my social netowrk.
+- centralities study: to identify key people in my social network and thier importance.
+- AGGLOMERATIVE CLUSTERING : segmenting people in my social network using Machine Laerning Clustering techniques and find out if the clusters meet real-life senario.
+  
 The Findings:
 
 customers were divided into 4 segments:
